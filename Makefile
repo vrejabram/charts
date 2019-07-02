@@ -50,8 +50,7 @@ $(STABLE_TARGETS) $(STAGING_TARGETS): $(TMPDIR)/.helm/repository/local/index.yam
 %/index.yaml: $(STABLE_TARGETS) $(STAGING_TARGETS)
 %/index.yaml: $(TMPDIR)/.helm/repository/local/index.yaml
 	@mkdir -p $(patsubst %/index.yaml,%,$@)
-	$(HELM) --home $(TMPDIR)/.helm repo index $(patsubst %/index.yaml,%,$@)
+	$(HELM) --home $(TMPDIR)/.helm repo index $(patsubst %/index.yaml,%,$@) --url=https://mesosphere.github.io/charts/$(shell echo $@ | sed 's@docs/\(.*\)index.yaml@\1@')
 
 $(TMPDIR)/.helm/repository/local/index.yaml: $(HELM)
 	$(HELM) --home $(TMPDIR)/.helm init --client-only
-	
