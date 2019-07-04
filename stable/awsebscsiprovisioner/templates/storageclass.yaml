@@ -1,0 +1,9 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: awsebscsiprovisioner
+  annotations:
+    kubernetes.io/description: AWS EBS CSI provisioner StorageClass
+    storageclass.kubernetes.io/is-default-class: {{ .Values.storageclassdefault | default "true" | quote }}
+provisioner: ebs.csi.aws.com
+volumeBindingMode: WaitForFirstConsumer
