@@ -4,6 +4,7 @@ metadata:
   name: awsebscsiprovisioner
   annotations:
     kubernetes.io/description: AWS EBS CSI provisioner StorageClass
-    storageclass.kubernetes.io/is-default-class: {{ .Values.storageclassdefault | default "true" | quote }}
+    storageclass.kubernetes.io/is-default-class: {{ .Values.storageclass.isDefault | quote }}
 provisioner: ebs.csi.aws.com
-volumeBindingMode: WaitForFirstConsumer
+volumeBindingMode: {{ .Values.storageclass.volumeBindingMode | quote }}
+reclaimPolicy: {{ .Values.storageclass.reclaimPolicy | quote }}

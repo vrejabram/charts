@@ -4,8 +4,8 @@ kind: StorageClass
 metadata:
   name: localvolumeprovisioner
   annotations:
-    storageclass.kubernetes.io/is-default-class: {{ .Values.storageclassdefault | default "true" | quote }}
+    storageclass.kubernetes.io/is-default-class: {{ .Values.storageclass.isDefault | quote }}
     kubernetes.io/description: Local volume provisioner StorageClass
 provisioner: kubernetes.io/no-provisioner
-volumeBindingMode: WaitForFirstConsumer
-reclaimPolicy: Delete
+volumeBindingMode: {{ .Values.storageclass.volumeBindingMode | quote }}
+reclaimPolicy: {{ .Values.storageclass.reclaimPolicy | quote }}

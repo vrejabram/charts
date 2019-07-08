@@ -4,8 +4,9 @@ metadata:
   name: awsebsprovisioner
   annotations:
     kubernetes.io/description: AWS EBS Storage class
-    storageclass.kubernetes.io/is-default-class: {{ .Values.storageclassdefault | default "true" | quote }}
+    storageclass.kubernetes.io/is-default-class: {{ .Values.storageclass.isDefault | quote }}
 provisioner: kubernetes.io/aws-ebs
-volumeBindingMode: WaitForFirstConsumer
+volumeBindingMode: {{ .Values.storageclass.volumeBindingMode | quote }}
+reclaimPolicy: {{ .Values.storageclass.reclaimPolicy | quote }}
 parameters:
-  type: gp2
+  type: {{ .Values.storageclass.type | quote }}
