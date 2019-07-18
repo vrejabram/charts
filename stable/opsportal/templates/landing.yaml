@@ -21,7 +21,8 @@ kind: Ingress
 metadata:
   annotations:
     kubernetes.io/ingress.class: traefik
-    traefik.ingress.kubernetes.io/rule-type: Path
+    traefik.ingress.kubernetes.io/rewrite-target: /
+    traefik.ingress.kubernetes.io/priority: "1"
   name: opsportal-landing
   namespace: {{ .Release.Namespace }}
 spec:
@@ -31,7 +32,6 @@ spec:
           - backend:
               serviceName: opsportal-landing
               servicePort: 80
-            path: /landing
 ---
 apiVersion: apps/v1
 kind: Deployment
