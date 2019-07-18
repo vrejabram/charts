@@ -1,15 +1,10 @@
 image:
   repository: mesosphere/kommander
-  tag: 1.50.0
+  tag: 1.45.0
   pullPolicy: IfNotPresent
 replicas: 1
-logoutRedirectPath: /ops/landing
-
-# Mode must be either production|konvoy
-mode: production
-
-# Konvoy ui should NOT create the CRD if Kommander already did it
-createObservableClusterCRD: true
+isKonvoyUI: false
+logoutRedirectPath: "/"
 
 extraInitContainers:
 
