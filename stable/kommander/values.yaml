@@ -9,6 +9,9 @@ logoutRedirectPath: "/"
 # Mode must be either production|konvoy
 mode: production
 
+# Mode must be either production|konvoy
+mode: production
+
 extraInitContainers:
 
 resources:
