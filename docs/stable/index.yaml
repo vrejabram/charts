@@ -3,9 +3,9 @@ entries:
   awsebscsiprovisioner:
   - apiVersion: v1
     appVersion: 0.3.0
-    created: 2019-07-18T20:28:22.4104573Z
+    created: 2019-07-18T21:00:22.743649972Z
     description: AWS EBS CSI driver and storage provisioner
-    digest: f22b10a08640ce47d1b83775282ab1ce067bca27e1a6e3325dd252c4dd63f89a
+    digest: f076ed1541b3b7f6effe61f2aae9cae1cf3d7f3623438d4b00f321d2125e94ab
     home: https://github.com/kubernetes-sigs/aws-ebs-csi-driver
     kubeVersion: '>=1.13.0'
     maintainers:
@@ -19,7 +19,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: 0.3.0
-    created: 2019-07-18T20:28:22.410131938Z
+    created: 2019-07-18T21:00:22.743311095Z
     description: AWS EBS CSI driver and storage provisioner
     digest: c3b6f61e89e2f8e152b18511ff8036400383868fb9d79ed30d4678daae980012
     home: https://github.com/kubernetes-sigs/aws-ebs-csi-driver
@@ -35,7 +35,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 0.3.0
-    created: 2019-07-18T20:28:22.409786684Z
+    created: 2019-07-18T21:00:22.742951527Z
     description: AWS EBS CSI driver and storage provisioner
     digest: 16a252bbe0f5b7751dbe6f1edde0725fddb3363b376b7f69be9419c7572c777a
     home: https://github.com/kubernetes-sigs/aws-ebs-csi-driver
@@ -48,7 +48,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-07-18T20:28:22.409476138Z
+    created: 2019-07-18T21:00:22.74261204Z
     description: AWS EBS CSI storage provisioner for konvoy
     digest: 14683cf0c3eeb83008289246fbcfcab21039cd331d8e26d688252da126ec8947
     name: awsebscsiprovisioner
@@ -58,9 +58,9 @@ entries:
   awsebsprovisioner:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-07-18T20:28:22.410735609Z
+    created: 2019-07-18T21:00:22.743939623Z
     description: AWS EBS storage provisioner for konvoy
-    digest: 51a340326fc77f071a2e44dca8deb6180374fc5791f4a5afd5a5a85b325f14ec
+    digest: 9ae12bb57f5ba35505777af838b995b919e2dc69ffa2ffdd4d1554d100c4eb63
     home: https://kubernetes.io/docs/concepts/storage/storage-classes/
     maintainers:
     - name: gpaul
@@ -70,7 +70,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-07-18T20:28:22.41058767Z
+    created: 2019-07-18T21:00:22.743785527Z
     description: AWS EBS storage provisioner for konvoy
     digest: f0f5d7861bb9c51eb39a5babdd93757b9f537428cc0863b701074451d9ab0aa0
     name: awsebsprovisioner
@@ -80,9 +80,9 @@ entries:
   dex:
   - apiVersion: v1
     appVersion: 2.17.0
-    created: 2019-07-18T20:28:22.411326264Z
+    created: 2019-07-18T21:00:22.744538338Z
     description: CoreOS Dex
-    digest: 3711e36109921d6b9c5aa2cdc33c99c8240e08d5fabdeeb470b5fd316ca842d5
+    digest: 8eed76b9450fdced887f49dde98fe10a2e5b237c66b897cf71b5046ba66a3ba0
     home: https://github.com/dexidp/dex/
     icon: https://github.com/dexidp/dex/raw/master/Documentation/logos/dex-glyph-color.png
     keywords:
@@ -101,8 +101,20 @@ entries:
     version: 1.5.2
   kommander:
   - apiVersion: v1
+    appVersion: 1.46.1
+    created: 2019-07-18T21:00:22.747376538Z
+    description: Kommander
+    digest: 5166a0def7515d45995de1219a9a515362e6eddbf41600124cb006ddc0ac3279
+    home: https://github.com/mesosphere/kommander
+    maintainers:
+    - name: hectorj2f
+    name: kommander
+    urls:
+    - https://mesosphere.github.io/charts/stable/kommander-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v1
     appVersion: 1.40.0
-    created: 2019-07-18T20:28:22.413685402Z
+    created: 2019-07-18T21:00:22.74709059Z
     description: Kommander
     digest: 11310af696461a1dc47a4d9be1cf3669abaf107f83e173735999321ff87e3a18
     home: https://github.com/mesosphere/kommander
@@ -114,7 +126,7 @@ entries:
     version: 0.1.8
   - apiVersion: v1
     appVersion: 1.40.0
-    created: 2019-07-18T20:28:22.413424379Z
+    created: 2019-07-18T21:00:22.746821679Z
     description: Kommander
     digest: b80d942d59845fb8aed4ceecde4f6c0e52ab34c2c4bd6255a8ab3e8684c90114
     home: https://github.com/mesosphere/kommander
@@ -126,7 +138,7 @@ entries:
     version: 0.1.7
   - apiVersion: v1
     appVersion: 1.40.0
-    created: 2019-07-18T20:28:22.413171565Z
+    created: 2019-07-18T21:00:22.746541424Z
     description: Kommander
     digest: 2fb515b20ca3c5c62123affac88097317caa0531732edbb23ee9444d2008faf2
     home: https://github.com/mesosphere/kommander
@@ -138,7 +150,7 @@ entries:
     version: 0.1.6
   - apiVersion: v1
     appVersion: 1.24.2
-    created: 2019-07-18T20:28:22.412932849Z
+    created: 2019-07-18T21:00:22.745788932Z
     description: Kommander
     digest: 5a876fe67c3d347d51530eb9e5b93e6bd0940d24ba566d12983016cd707952f0
     home: https://github.com/mesosphere/kommander
@@ -150,7 +162,7 @@ entries:
     version: 0.1.5
   - apiVersion: v1
     appVersion: 1.24.2
-    created: 2019-07-18T20:28:22.41269354Z
+    created: 2019-07-18T21:00:22.745398742Z
     description: Kommander
     digest: e8497074da8f21d12dadf7414fedd8e2d7269dd5364f70bda66567f765965671
     home: https://github.com/mesosphere/kommander
@@ -162,7 +174,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: 1.24.2
-    created: 2019-07-18T20:28:22.412439577Z
+    created: 2019-07-18T21:00:22.74495635Z
     description: Kommander
     digest: 050936297db122e11949066542ae2d409dd87ba01a6f3a9c48380fe58b82cc6e
     name: kommander
@@ -171,7 +183,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 1.24.2
-    created: 2019-07-18T20:28:22.411873267Z
+    created: 2019-07-18T21:00:22.744718111Z
     description: Kommander
     digest: 4f5fc472c2a90252b3fa897b3f4dd1ddec6890c140592667c09c62053e4f21c8
     name: kommander
@@ -181,9 +193,9 @@ entries:
   localpathprovisioner:
   - apiVersion: v1
     appVersion: v0.0.9
-    created: 2019-07-18T20:28:22.414013031Z
+    created: 2019-07-18T21:00:22.747721309Z
     description: Local path storage provisioner for konvoy
-    digest: de18ac3ba242930005ec46640ca64179fe3d758262013de254b439511407af9e
+    digest: f064bee8e23cf11540e0d76aee07f17a02c759254e7b332f2d31bc2d44cda9a7
     home: https://github.com/rancher/local-path-provisioner
     maintainers:
     - name: gpaul
@@ -193,7 +205,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-07-18T20:28:22.413837802Z
+    created: 2019-07-18T21:00:22.747534164Z
     description: Local path storage provisioner for konvoy
     digest: 927e7f5bbd6e9576a4a49fb6eccc3a844a87e5281d234ccca1953114f8dcdcd3
     name: localpathprovisioner
@@ -203,16 +215,16 @@ entries:
   localvolumeprovisioner:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-07-18T20:28:22.414389481Z
+    created: 2019-07-18T21:00:22.748097141Z
     description: Local persistent volume provisioner for konvoy
-    digest: cad1d9b287ac0cfe24c3b3a5b2a92785f54778b1810fe7ee31ebfafdc4fd7c17
+    digest: 0229b9118b00b7ead95dc5e763ef39298c527df49ef50656dd03de0822072e0d
     name: localvolumeprovisioner
     urls:
     - https://mesosphere.github.io/charts/stable/localvolumeprovisioner-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-07-18T20:28:22.414188891Z
+    created: 2019-07-18T21:00:22.747900621Z
     description: Local persistent volume provisioner for konvoy
     digest: 726a8d1a9ccc8576b31d3764e8b7db99c1a9dca29043a3e0392644d25267a261
     name: localvolumeprovisioner
@@ -222,20 +234,20 @@ entries:
   opsportal:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2019-07-18T20:28:22.415340795Z
+    created: 2019-07-18T21:00:22.749056616Z
     description: OpsPortal Chart
-    digest: 045c51d05fd1f331ceb64eb13f2dc907422304ab20ef7f7a88631d196ed0b758
+    digest: 810500d0f78ac5497c391d882502b3f788a9602d4d48a7b8ebb967b118f61a87
     name: opsportal
     urls:
     - https://mesosphere.github.io/charts/stable/opsportal-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2019-07-18T20:28:22.415110341Z
+    created: 2019-07-18T21:00:22.748837662Z
     description: OpsPortal Chart
     digest: 1e5b12e92d5b2f8da1fc12b8b7e7e567468d1ed635ebe4994b0f10bba6532836
     name: opsportal
     urls:
     - https://mesosphere.github.io/charts/stable/opsportal-0.0.1.tgz
     version: 0.0.1
-generated: 2019-07-18T20:28:22.409104187Z
+generated: 2019-07-18T21:00:22.742289621Z
