@@ -6,12 +6,6 @@ replicas: 1
 isKonvoyUI: false
 logoutRedirectPath: "/"
 
-# Mode must be either production|konvoy
-mode: production
-
-# Mode must be either production|konvoy
-mode: production
-
 extraInitContainers:
 
 resources:
