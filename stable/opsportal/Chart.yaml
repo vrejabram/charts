@@ -4,3 +4,5 @@ home: https://github.com/mesosphere/charts
 description: OpsPortal Chart
 name: opsportal
 version: 0.0.3
+maintainers:
+  - name: hectorj2f
