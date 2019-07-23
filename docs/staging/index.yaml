@@ -3,9 +3,9 @@ entries:
   dex-k8s-authenticator:
   - apiVersion: v1
     appVersion: v1.1.0
-    created: 2019-07-22T18:09:21.658860173Z
+    created: 2019-07-23T12:22:33.304611155Z
     description: Authenticator for using Dex with Kubernetes
-    digest: cea34ffae9d7e2f277dc0b55732601641c72acac44f7a3d6767f765ea4e590fd
+    digest: 7c517b20a9bbebec295eec0c0770bb01ce8853f3236d05478c5243e862ea67eb
     home: https://github.com/mesosphere/charts
     maintainers:
     - email: mhrabovcin.c@mesosphere.com
@@ -18,7 +18,7 @@ entries:
     version: 1.1.4
   - apiVersion: v1
     appVersion: v1.1.0
-    created: 2019-07-22T18:09:21.658301833Z
+    created: 2019-07-23T12:22:33.304008508Z
     description: Authenticator for using Dex with Kubernetes
     digest: fb7db6ae0baa802c89fb7cdbdcd45eaeb601a29fc4ca39d713a6bd5517d0d02c
     maintainers:
@@ -36,7 +36,7 @@ entries:
     version: 1.1.3
   - apiVersion: v1
     appVersion: v1.1.0
-    created: 2019-07-22T18:09:21.657702221Z
+    created: 2019-07-23T12:22:33.303330354Z
     description: Authenticator for using Dex with Kubernetes
     digest: 2714dd1206327a96e151357b24fe7b412e54c5507fb16990d5e199cc20dde64c
     maintainers:
@@ -54,7 +54,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     appVersion: v1.1.0
-    created: 2019-07-22T18:09:21.657113092Z
+    created: 2019-07-23T12:22:33.302678468Z
     description: Authenticator for using Dex with Kubernetes
     digest: ef65818aaedebe5053fef11f1184f8255edc5e850859642fe5ce48d764b77b35
     maintainers:
@@ -73,7 +73,7 @@ entries:
   test:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-07-22T18:09:21.659134229Z
+    created: 2019-07-23T12:22:33.304879539Z
     description: A Helm chart for Kubernetes
     digest: d07d36886354e77838f74ca60211e8246dd4575267e59527ede41513b5cc1ae6
     name: test
@@ -83,10 +83,10 @@ entries:
   traefik:
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2019-07-22T18:09:21.660439058Z
+    created: 2019-07-23T12:22:33.306136576Z
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
-    digest: 6e07d3f13bfe05876f3de158cf33059c4c6c333b77b2c03a7c49f46a5a470cb5
+    digest: f1b1487252b4a2338fbe3c2999dacb361089510a92fa3ebee67f1feb8566ef0f
     engine: gotpl
     home: https://traefik.io/
     icon: https://docs.traefik.io/img/traefik.logo.png
@@ -114,10 +114,10 @@ entries:
   traefik-forward-auth:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-07-22T18:09:21.662712715Z
+    created: 2019-07-23T12:22:33.308888713Z
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
-    digest: fbbb1b3d90274bcf41cfc7f24587c38d56d26355824b45ae98d4d12d4f7b0d41
+    digest: fa92de094510b8c95f7028ebece7497911d78f08d7401b8d55af2edfeb69143e
     home: https://github.com/jongiddy/traefik-forward-auth
     keywords:
     - traefik-forward-auth
@@ -132,7 +132,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: latest
-    created: 2019-07-22T18:09:21.662299237Z
+    created: 2019-07-23T12:22:33.308456165Z
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: c58c8f7bdd0ee2d267809e9089d32cdcef7e81f614d3f4bbc730b884bc2620df
@@ -150,7 +150,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: latest
-    created: 2019-07-22T18:09:21.661509977Z
+    created: 2019-07-23T12:22:33.30798115Z
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: c88663f8cfca74df65d9a298fe59a649aa01f096edf85bbfa3cd4295b3d169e1
@@ -168,7 +168,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: latest
-    created: 2019-07-22T18:09:21.660865644Z
+    created: 2019-07-23T12:22:33.307545785Z
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: f825b48d33eb5ebf688b510b547ea2f72d04b513f2aae03d4aa4edfc83328991
@@ -184,4 +184,4 @@ entries:
     urls:
     - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.1.1.tgz
     version: 0.1.1
-generated: 2019-07-22T18:09:21.656516887Z
+generated: 2019-07-23T12:22:33.302087247Z
