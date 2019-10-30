@@ -38,6 +38,11 @@ opsportal:
           serviceName: bearerproxy
           servicePort: 9091
         path: /ops/portal/kubernetes
+      # harbor
+      - backend:
+          serviceName: harbor
+          servicePort: 443
+        path: /ops/portal/harbor
       # kibana
       - backend:
           serviceName: kibana-kubeaddons
