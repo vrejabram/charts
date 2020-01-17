@@ -40,6 +40,10 @@ traefikForwardAuth:
   #   -----BEGIN
   #   ...
   #   -----END
+
+  # Specify an existing secret containing the CA
+  # caSecretName: ""
+
   extraConfig: ""
   userCookieName: "_forward_auth_name"
 
