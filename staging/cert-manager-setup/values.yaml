@@ -64,4 +64,5 @@ clusterissuer: {}
 #
 # This will work only in case when a cert-manager is installed in
 # `cert-manager` namespace.
-installCertManager: true
+certManager:
+  enabled: true
