@@ -79,3 +79,7 @@ affinity: {}
 initContainers: []
 
 deploymentAnnotations: {}
+
+kibanaRBAC:
+  enabled: true
+  path: /ops/portal/kibana
